@@ -40,6 +40,7 @@ services.maxPrice = function () {
   }
   return max;
 };
+
 console.log(services.price());
 console.log(services.minPrice());
 console.log(services.maxPrice());
